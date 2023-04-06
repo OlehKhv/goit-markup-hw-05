@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -31,13 +32,18 @@
           >
           <ul class="nav-list list">
             <li class="nav-list-item">
-              <a class="header-link current link" href="./index.html">Studio</a>
+              <a
+                class="header-link current link"
+                href="./index.html"
+                data-aos="zoom-out"
+                >Studio</a
+              >
             </li>
             <li class="nav-list-item">
               <a class="header-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-list-item">
-              <a class="header-link link" href="">Contacts</a>
+              <a class="header-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -453,5 +459,9 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
